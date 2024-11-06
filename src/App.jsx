@@ -33,7 +33,7 @@ function App() {
       
     </Canvas>
     <div>
-      <button className={` ${play? `bg-blue-400 `:`bg-red-500`} text-white ml-4 rounded-xl p-2 absolute top-[89vh]`} onClick={playhandle}>
+      <button className={` ${play? `bg-blue-400 `:`bg-red-500`} text-white ml-4 rounded-xl p-2 absolute top-[0vh]`} onClick={playhandle}>
         {console.log(play)}
         {play ?" play ":" stop"}
       </button>
